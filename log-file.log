@@ -1,0 +1,55 @@
+2020-04-15 13:37:31 INFO  Ims:26 - Enter Username: 
+2020-04-15 13:37:35 INFO  Ims:28 - Enter Password: 
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+2020-04-15 13:37:39 DEBUG Ims:123 - java.sql.DriverManager.getConnection(DriverManager.java:664)
+2020-04-15 13:37:39 DEBUG Ims:123 - java.sql.DriverManager.getConnection(DriverManager.java:247)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.qa.ims.Ims.init(Ims.java:113)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.qa.ims.Ims.init(Ims.java:89)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.qa.ims.Ims.imsSystem(Ims.java:31)
+2020-04-15 13:37:39 DEBUG Ims:123 - com.qa.ims.Runner.main(Runner.java:11)
+2020-04-15 13:37:39 ERROR Ims:125 - Access denied for user 'Dan'@'90.203.62.209' (using password: YES)
+2020-04-15 13:37:39 INFO  Ims:33 - What would you like to edit?
+2020-04-15 13:37:39 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-04-15 13:37:39 INFO  Domain:28 - ITEM: Individual Items
+2020-04-15 13:37:39 INFO  Domain:28 - ORDER: Purchases of items
+2020-04-15 13:37:39 INFO  Domain:28 - STOP: To close the application
+2020-04-15 13:37:46 INFO  Ims:26 - Enter Username: 
+2020-04-15 13:37:48 INFO  Ims:28 - Enter Password: 
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+2020-04-15 13:37:52 DEBUG Ims:123 - java.sql.DriverManager.getConnection(DriverManager.java:664)
+2020-04-15 13:37:52 DEBUG Ims:123 - java.sql.DriverManager.getConnection(DriverManager.java:247)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.qa.ims.Ims.init(Ims.java:113)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.qa.ims.Ims.init(Ims.java:89)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.qa.ims.Ims.imsSystem(Ims.java:31)
+2020-04-15 13:37:52 DEBUG Ims:123 - com.qa.ims.Runner.main(Runner.java:11)
+2020-04-15 13:37:52 ERROR Ims:125 - Access denied for user 'Root'@'90.203.62.209' (using password: YES)
+2020-04-15 13:37:52 INFO  Ims:33 - What would you like to edit?
+2020-04-15 13:37:52 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-04-15 13:37:52 INFO  Domain:28 - ITEM: Individual Items
+2020-04-15 13:37:52 INFO  Domain:28 - ORDER: Purchases of items
+2020-04-15 13:37:52 INFO  Domain:28 - STOP: To close the application
+2020-04-15 13:40:11 INFO  Ims:26 - Enter Username: 
+2020-04-15 13:40:14 INFO  Ims:28 - Enter Password: 
+2020-04-15 13:40:18 INFO  Ims:33 - What would you like to edit?
+2020-04-15 13:40:18 INFO  Domain:28 - CUSTOMER: Information about customers
+2020-04-15 13:40:18 INFO  Domain:28 - ITEM: Individual Items
+2020-04-15 13:40:18 INFO  Domain:28 - ORDER: Purchases of items
+2020-04-15 13:40:18 INFO  Domain:28 - STOP: To close the application
+2020-04-15 13:40:27 INFO  Ims:37 - What would you like to do with customer:
+2020-04-15 13:40:27 INFO  Action:40 - CREATE: To save a new item into the database
+2020-04-15 13:40:27 INFO  Action:40 - READ: To read an item from the database
+2020-04-15 13:40:27 INFO  Action:40 - UPDATE: To change an item already in the database
+2020-04-15 13:40:27 INFO  Action:40 - DELETE: To remove an item from the database
+2020-04-15 13:40:27 INFO  Action:40 - RETURN: To return to domain selection
